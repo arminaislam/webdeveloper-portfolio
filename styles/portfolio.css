@@ -1,0 +1,51 @@
+ /*common shared styles open sans  */
+ body h3{
+    font-family: 'Open Sans', sans-serif; 
+ }
+ 
+ 
+ li{
+    /* display: flex; */
+}
+ /* nav related styles */
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ h3{
+    font-size: 50px;
+    font-weight: 800px;
+ }
+ .orange{
+    color: chocolate;
+ }
+ nav > ul{
+    display: flex;
+ }
+ nav li{
+    list-style: none;
+    margin-right: 50px;
+
+ }
+ button{
+    color:aliceblue;
+    background-color: chocolate;
+    width: 90px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: darkgoldenrod;
+    text-align: center;
+    font-size: large;
+ }
+ nav a{
+    text-decoration: none;
+    color: #474747;
+    font-size: large;
+    
+ }
+ /* header related styles */
+ header{
+    background-color: #FFF8F3;
+ }
