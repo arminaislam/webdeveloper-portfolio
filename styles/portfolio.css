@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 150px;
  }
  h3{
     font-size: 50px;
@@ -51,13 +51,36 @@
     background-color: #FFF8F3;
  }
  .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 0px 0px 150px;
     display: flex;
 }
 .banner .profile{
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
 }
  .btn{
     align-items: center;
+ }
+ .about{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px;
+    margin: 130px 0;
+
+ }
+ .section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+ }
+ .section-description{
+   color: #757575;
+   text-align: center;
+   font-size: 18px;
  }
